@@ -1,8 +1,5 @@
 #!/bin/bash
-
-backup() {
-	cp /boot/config.txt ./config/backups/config-$1.txt
-}
+. ./scripts/utils.sh
 
 echo "setting up git..."
 
@@ -15,4 +12,6 @@ git config --global user.email ${user_email}
 git config --global alias.s "status -sb"
 git config --global alias.c commit
 git config --global alias.p push
+
+backup init
 
