@@ -5,7 +5,7 @@ My RasPi 3B setup logs and tips
 
 - Swap ctrl and caps key from the system setting menu, if you want.
 - Run `sudo apt update`
-- Run `sudo apt install git \[-y]`
+- Run `sudo apt install git [-y]`
 - Run `git clone https://github.com/shinsa82/raspi-setup.git`
 - Run `cd raspi-setup`
 
